@@ -26,6 +26,17 @@ public class Clase2 {
         ClasePrivada otraClase = new ClasePrivada();
         System.out.println(otraClase.palabraPublica);
         System.out.println(otraClase.getValores()[0] + " " + otraClase.getValores()[1]);
-    }
+   
+    
+    
+    
+        Usuarios usuario1 = new Usuarios("Nicolas", "Mendez", 32);
+        System.out.println("id: " + usuario1.id);
+        System.out.println("Total usuarios: " + Usuarios.getUsersCount());
+        
+        Usuarios usuario2 = new Usuarios("Nicolas", "Mendez", 35);
+        System.out.println("id: " + usuario2.id);
+        System.out.println("Total usuarios: " + Usuarios.getUsersCount());
 
+    }
 }
